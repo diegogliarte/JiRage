@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The angry user</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="static/favicon/site.webmanifest">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>🤬 Submit your rage 🤬</h1>
+    <div class="form">
+        <textarea id="userInput" placeholder="Enter your feedback here..."></textarea>
+        <button onclick="submitFeedback()">Generate issue</button>
+    </div>
+</div>
+
+<div id="successCard" class="card" style="display: none;">
+    <p><strong>Type:</strong> <span id="issueType"></span></p>
+    <p><strong>Summary:</strong> <span id="issueSummary"></span></p>
+    <p><strong>Description:</strong> <span id="issueDescription"></span></p>
+    <p><strong>Priority:</strong> <span id="issuePriority"></span></p>
+
+    <button id="postIssueButton" onclick="postIssue()">Post Issue</button>
+
+</div>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>

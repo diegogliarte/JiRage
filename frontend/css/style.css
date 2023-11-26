@@ -1,0 +1,127 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    margin-top: 5rem;
+    width: 650px;
+    box-sizing: border-box;
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff3b3b;
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+textarea {
+    padding: 0.5rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+    min-height: 100px;
+
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #ff3b3b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e03535;
+}
+
+.card {
+    width: 650px;
+    box-sizing: border-box;
+    background-color: #ffefef;
+    color: #a94442;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-left: 5px solid #a94442;
+    display: none;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: left;
+}
+
+.card h3 {
+    color: #d9534f;
+    margin-top: 0;
+}
+
+.card p {
+    margin: 0.5rem 0;
+    line-height: 1.4;
+}
+
+.card strong {
+    color: #d9534f;
+}
+
+
+.issue-bug {
+    color: #d9534f;
+}
+
+.issue-feature {
+    color: #5cb85c;
+}
+
+.issue-improvement {
+    color: #f0ad4e;
+
+}
+
+.priority-highest, .priority-high {
+    color: #d9534f;
+}
+
+.priority-medium {
+    color: #f0ad4e
+}
+
+.priority-low, .priority-lowest {
+    color: #5cb85c;
+}
+
+
+#postIssueButton {
+    padding: 0.5rem 1rem;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+#postIssueButton:hover {
+    background-color: #4cae4c;
+}

@@ -1,0 +1,10 @@
+The page crashes every time I try to submit my form. It happens on both mobile and desktop versions
+I would love to have a dark mode feature in the application. It's easier on the eyes during night-time browsing
+The search function is very slow, taking more than 30 seconds to return results, which is frustrating
+There is no way to export the data I input into the app. An export to CSV feature would be incredibly helpful
+I noticed that the images on the product pages are not loading properly in the Safari browser
+Adding multi-language support would greatly enhance the app's accessibility for non-English speakers
+I'm getting an error message when I try to reset my password, but the message doesn't specify what's wrong
+It would be great if the application could remember my preferences and settings across devices
+The user interface for the settings section is confusing and not intuitive, making it hard to navigate
+I've noticed some typos and grammatical errors in the help section, which might be misleading for new users

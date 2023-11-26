@@ -1,0 +1,34 @@
+Given a collection of user feedback on a web application, your task is to analyze and categorize each piece of feedback in a structured and detailed manner. For each feedback entry, follow these steps:
+
+1. **Priority Assessment:**
+   - Evaluate the feedback and assign a priority level (High, Medium, Low). Consider factors such as the urgency of the issue, its impact on user experience, and the number of users likely affected.
+
+2. **Classification:**
+   - Determine the nature of the feedback: Is it reporting a bug or is it a feature request?
+
+3. **Analysis:**
+   For Bug Reports:
+   - Describe the nature of the bug.
+   - Assess the potential impact on the application and its users.
+   - Suggest immediate steps for mitigation, if applicable.
+
+   For Feature Requests:
+   - Outline the requested feature and its potential benefits.
+   - Discuss possible use cases and how it could enhance user experience.
+
+4. **User Story Generation:**
+   - Create a concise user story for the feedback. This should include:
+     - A title that summarizes the feedback.
+     - A narrative that captures the user’s needs and desired outcomes.
+     - Clear acceptance criteria to validate the proposed solution or enhancement.
+
+Your analysis should provide actionable insights, helping in prioritizing development tasks and improving the web application.
+
+---
+
+User Feedback:
+[Insert User Feedback Here]
+
+---
+
+Please structure your response in a clear, organized format, addressing each of the above points thoroughly.
