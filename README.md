@@ -55,7 +55,7 @@ This command will build and start both the frontend and backend services.
 ### Submitting Feedback
 Access the frontend at `http://localhost` and submit feedback using the provided form.
 
-<img src="images/frontend.png" alt="frontend" width="640"/>
+<img src="images/frontend.png" alt="frontend" width="100%"/>
 
 ### Backend Endpoints
 - **POST /create_issue**: Endpoint for creating a new issue from the submitted feedback.
@@ -64,4 +64,4 @@ Access the frontend at `http://localhost` and submit feedback using the provided
 ### Viewing Generated Issues
 Access your JIRA dashboard to see the issues created based on the user feedback.
 
-<img src="images/jira.png" alt="jira dashboard" width="640"/>
+<img src="images/jira.png" alt="jira dashboard" width="100%"/>
