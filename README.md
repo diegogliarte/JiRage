@@ -1,15 +1,17 @@
-# User Feedback and JIRA Integration System
+# JiRage
 
 ## Overview
+This project was done for the [HackEPS2023](https://devpost.com/software/jirage?ref_content=user-portfolio&ref_feature=in_progress)
 
-This project is a web-based application designed to collect user feedback and create corresponding issues in JIRA. It
+This is a web-based application designed to collect user feedback and create corresponding issues in JIRA. It
 features a frontend for submitting feedback and a Flask-based backend that processes this feedback, categorizing it into
-issues with varying priorities. These issues are then posted to JIRA, streamlining the tracking and management process.
+issues with varying priorities using ChatGPT. These issues are then posted to JIRA, streamlining the tracking and management process.
+
 
 ### Features
 
 - **User Feedback Form**: A simple and intuitive interface for users to submit feedback.
-- **Flask Backend**: Processes the feedback, classifying it into different categories and priorities.
+- **Flask Backend**: Processes the feedback, classifying it into different categories and priorities using the OpenAI api.
 - **JIRA Integration**: Automatically creates issues in JIRA based on user feedback.
 - **Dockerized Setup**: Ensures consistency across development and production environments.
 
