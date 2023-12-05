@@ -1,6 +1,6 @@
-# JiRage
+# 😡 JiRage 😡
 
-## Overview
+## Overview 🌐
 This project was done for the [HackEPS2023](https://devpost.com/software/jirage?ref_content=user-portfolio&ref_feature=in_progress)
 
 This is a web-based application designed to collect user feedback and create corresponding issues in JIRA. It
@@ -8,16 +8,16 @@ features a frontend for submitting feedback and a Flask-based backend that proce
 issues with varying priorities using ChatGPT. These issues are then posted to JIRA, streamlining the tracking and management process.
 
 
-### Features
+### Features 🌟
 
 - **User Feedback Form**: A simple and intuitive interface for users to submit feedback.
 - **Flask Backend**: Processes the feedback, classifying it into different categories and priorities using the OpenAI api.
 - **JIRA Integration**: Automatically creates issues in JIRA based on user feedback.
 - **Dockerized Setup**: Ensures consistency across development and production environments.
 
-## Getting Started
+## Getting Started 🚦
 
-### Prerequisites
+### Prerequisites 📋
 
 - Docker
 - Git (for cloning the repository)
@@ -30,7 +30,7 @@ JIRA_EMAIL=xxx
 PORT=xxx
 ```
 
-### Installation
+### Installation 🔧
 
 1. **Clone the Repository**
 
@@ -50,12 +50,12 @@ docker-compose up --build
 
 This command will build and start both the frontend and backend services.
 
-## Usage
+## Usage 📚
 
 ### Submitting Feedback
 Access the frontend at `http://localhost` and submit feedback using the provided form.
 
-![frontend](images/frontend.png)
+<img src="images/frontend.png" alt="frontend" width="640"/>
 
 ### Backend Endpoints
 - **POST /create_issue**: Endpoint for creating a new issue from the submitted feedback.
@@ -64,5 +64,4 @@ Access the frontend at `http://localhost` and submit feedback using the provided
 ### Viewing Generated Issues
 Access your JIRA dashboard to see the issues created based on the user feedback.
 
-![jira dashboad](images/jira.png)
-
+<img src="images/jira.png" alt="jira dashboard" width="640"/>
